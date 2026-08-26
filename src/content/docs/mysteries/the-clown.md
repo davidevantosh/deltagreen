@@ -9,11 +9,11 @@ sessions: [1, 2]
 
 ## What Happened
 
-**Session 1:** At [Washington Square Park](/locations/washington-square-park/), a child-sized busker in a mask danced to a looping dirge, dragging a paper dragon through the air with unnervingly precise movements. See: [The Busking Clown](/moments/busking-clown/).
+**Session 1:** At [Washington Square Park](/locations/operation-alice/washington-square-park/), a child-sized busker in a mask danced to a looping dirge, dragging a paper dragon through the air with unnervingly precise movements. See: [The Busking Clown](/moments/operation-alice/busking-clown/).
 
 **Session 2:** Two independent developments tie directly back to this image:
 - [Thomas Manuel's](/npcs/suspects-witnesses/thomas-manuel/) basement painting collection includes a piece depicting **the exact same scene** — the clown in Washington Square Park, trailing a white paper dragon. See [Manuel's Paintings](/mysteries/manuels-paintings/).
-- [Agent Mortimer](/characters/mortimer/) — who saw the original busker and noticed nothing unusual — came home to find a **white origami paper dragon** sitting on his own front doorstep in White Plains. He destroyed it (crumpled and discarded) before it could be examined. See [Dragon on the Doorstep](/moments/dragon-on-the-doorstep/).
+- [Agent Mortimer](/characters/mortimer/) — who saw the original busker and noticed nothing unusual — came home to find a **white origami paper dragon** sitting on his own front doorstep in White Plains. He destroyed it (crumpled and discarded) before it could be examined. See [Dragon on the Doorstep](/moments/operation-alice/dragon-on-the-doorstep/).
 
 ## Why It's Flagged
 

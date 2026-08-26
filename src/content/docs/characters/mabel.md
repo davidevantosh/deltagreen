@@ -3,30 +3,35 @@ title: Agent Mabel
 description: M-Cell agent — real name Des Butler.
 entryType: character
 status: Active
-sessions: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+sessions: [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18]
 ---
 
 <img src="/characters/mabel.png" alt="Agent Mabel" style="float:right; width:200px; border-radius:8px; margin:0 0 1rem 1.5rem;" />
 
 ## Overview
 
-One of five agents activated into M-Cell for Operation ALICE. **Real name: Des Butler.** Lives in **Brooklyn** with his wife, **Teri**. Has a day job with coworker **Barry** and boss **Barrett**. Knows Latin and has deep knowledge of the occult — the most academically prepared member of M-Cell for what they found in the Night Floors, and consequently one of the hardest hit by it.
+One of five agents activated into M-Cell for Operation ALICE. **Real name: Des Butler.** Originally in Brooklyn, married to **Teri**. Knows Latin and has deep knowledge of the occult.
+
+**As of 2015:** Remains at the Department of Energy over the twenty-year gap, but carries PTSD from Operation CONVERGENCE. His best friend Barry Romano died of an apparent heroin overdose in 2007, shortly after describing a strange, suspicious film shoot — Des chose not to investigate. His marriage to Teri ended in divorce in 2010 after her own breakdown. Spends the following years failing to rebuild relationships, eventually forming a bond with his therapist, Kathy Schmidt, and making exactly one new friend at the pistol club.
 
 ## Injuries & Ailments
 
-- **Severe compulsion/fugue episodes tied to the Yellow Sign** — after seeing the sign in Session 5, developed a recurring urge to "share" it (drawing it unconsciously, feeling compelled to show others). By Session 8, entered a full catatonic fugue state — unable to get out of bed for most of a day, unable to sleep until he shared the sign, but unable to make himself move.
-- **Lost a full day** — woke Wednesday morning (Session 9) with no memory of Tuesday, having spent it in a fever dream about the Night Floors. Missed a scheduled team meetup as a result.
-- **Recurring nightmares** of the Night Floors, ongoing as of Session 9.
+- **Severe compulsion/fugue episodes tied to the Yellow Sign, Operation ALICE** — culminated in a full catatonic fugue state and a lost day.
+- **PTSD, Operation CONVERGENCE** — from the events at the Mi-Go farm and its aftermath; ongoing as of 2015.
+- **Divorce and social isolation, 2010–2015** — his marriage ended after Teri's own breakdown; subsequent years marked by repeated failed attempts to build or repair relationships.
+- **Heroic first aid work, Operation INDIA MOON** — stabilized Mortimer's near-fatal injuries from "the Lion" in the field, likely saving his life.
 
 ## Relationships
 
-- **Teri** — wife. Left him a tape recording, cut off mid-sentence, ending with her shouting "HAVE YOU SEEN IT?" after his lost day.
-- **Abad** — poker buddy, knows Mabel by his real first name, "Des."
-- **Barry** and **Barrett** — coworker and civilian boss at his day job.
+- **Teri** — ex-wife; divorced 2010 after her own breakdown.
+- **Kathy Schmidt** — therapist; the closest thing to a new Bond he's formed since 1995.
+- **Barry Romano** — best friend, died 2007 under suspicious circumstances Des chose not to pursue.
+- **Abad** — poker buddy from 1995, knew him as "Des."
+- Real name and full Bond history exposed to the rest of M-Cell in Session 18, via Barbas's cheat sheets.
 
 ## Home
 
-Brooklyn.
+Brooklyn (1995); unspecified as of 2015.
 
 ## Session Notes
 
@@ -72,3 +77,33 @@ Brooklyn.
 - Gathered the team at Madison Square Park via burner beeper once he recovered; the search for the Hotel Broadalbin turned up nothing.
 - Read the stolen bookshop ledgers — found only "Jabberwocky" translated into Farsi, repeated for a thousand pages, dated back to 1895.
 - Present for the decision to destroy the Macallister Building — personally used his electrical knowledge to time the gas explosion.
+
+### Session 11
+- Joined Mortimer, Murphy, and Mason partway through the briefing at the Knoxville FBI lab; examined the Spivey tissue sample under Dr. Bennett's microscope.
+
+### Session 12
+- Investigated the reservoir with Mortimer; spotted a black helicopter circling overhead.
+- Present when Murphy vanished at RR Diner and for the subsequent search.
+
+### Session 13
+- Present for the raid on the Mi-Go farm.
+- Suffered severe illness from protomatter exposure alongside Mason; took months to recover.
+
+### Session 14
+- Diagnosed (informally) with PTSD from Operation CONVERGENCE.
+- His marriage to Teri ended in 2010. Best friend Barry Romano died in 2007 under circumstances Des chose not to investigate.
+
+### Session 15
+- Received the birthday invitation; scoped out Gateway Bridges Restaurant the night before the briefing.
+- Present for Agent Exeter's Operation INDIA MOON briefing.
+
+### Session 16
+- Toured Dorchester House with the team.
+- Was absent from the team's later planning session — implied to be recovering or occupied elsewhere; details unclear.
+
+### Session 17
+- Present for the raid on Barbas's house and the first encounter with "the Lion."
+
+### Session 18
+- Present for the second raid on Barbas's house.
+- Read the cheat sheets with the rest of M-Cell — real names, Bonds, and secrets now known to everyone.

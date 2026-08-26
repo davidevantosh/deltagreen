@@ -9,7 +9,7 @@ sessions: [4, 8]
 
 ## Role
 
-A large man in a seersucker suit and toupee, first met in the smoking lounge of the [Night Floors](/locations/the-night-floors/). Amiable and old-fashioned. Records confirm he matches **Mark Armin Roark**, an unmarried door-to-door salesman for the Fuller Brush Company, reported missing in a 1933 file — last known address the Hotel Broadalbin, no street address given. No leads were ever found; he was never seen again in the outside world.
+A large man in a seersucker suit and toupee, first met in the smoking lounge of the [Night Floors](/locations/operation-alice/the-night-floors/). Amiable and old-fashioned. Records confirm he matches **Mark Armin Roark**, an unmarried door-to-door salesman for the Fuller Brush Company, reported missing in a 1933 file — last known address the Hotel Broadalbin, no street address given. No leads were ever found; he was never seen again in the outside world.
 
 ## Session Notes
 

@@ -13,9 +13,9 @@ sessions: [2, 3, 6, 7]
 
 What began as a coincidence in Session 2 turned out to be a real, sharp turning point for the entire building:
 
-- [Abigail Wright's mail](/evidence/abigails-mail/) shows utility bills lapsing from March, yet power and water still run.
+- [Abigail Wright's mail](/evidence/operation-alice/abigails-mail/) shows utility bills lapsing from March, yet power and water still run.
 - Food in [Thomas Manuel's fridge](/npcs/suspects-witnesses/thomas-manuel/) is fresh despite expiry dates from late March.
-- Per [Manuel's mail](/evidence/manuels-mail/), his parents were turned away from the building on **31 March**, after dark, and told he no longer lived there.
+- Per [Manuel's mail](/evidence/operation-alice/manuels-mail/), his parents were turned away from the building on **31 March**, after dark, and told he no longer lived there.
 - Per FBI records checked in Session 6, tenants across the building stopped making calls or spending money at all from around March onward.
 - Cable repairman [David Langford](/npcs/suspects-witnesses/david-langford/) confirmed he entered the building on **20 March 1995** and became trapped in the Night Floors from that date.
 

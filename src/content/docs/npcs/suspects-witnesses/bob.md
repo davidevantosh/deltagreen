@@ -18,4 +18,4 @@ Proprietor of the hidden bookshop where [Abigail Wright](/npcs/suspects-witnesse
 ## Open Threads
 
 - Who or what was in the trapdoor basement with him is unknown.
-- His ledgers (see [Bob's Stolen Ledgers](/evidence/bobs-ledgers/)) raise more questions than they answer.
+- His ledgers (see [Bob's Stolen Ledgers](/evidence/operation-alice/bobs-ledgers/)) raise more questions than they answer.

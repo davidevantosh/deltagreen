@@ -9,7 +9,7 @@ sessions: [4, 7]
 
 ## Role
 
-An old man in thick glasses, night manager of the [Night Floors](/locations/the-night-floors/), working for an unnamed "superintendent" who also lives upstairs there.
+An old man in thick glasses, night manager of the [Night Floors](/locations/operation-alice/the-night-floors/), working for an unnamed "superintendent" who also lives upstairs there.
 
 ## Session Notes
 

@@ -9,7 +9,7 @@ sessions: [2]
 
 ## What Happened
 
-While helping [Sal Mazzi](/npcs/bonds/sal-mazzi/) move boxes, [Agent Marlowe](/characters/marlowe/) (real name Miya) was accosted by a large, unidentified [man in an old suit](/npcs/suspects-witnesses/man-in-old-suit/), who screamed at her by name demanding "his bottle." Sal drove him off with an old firearm before anyone was hurt. See: [The Bottle Incident](/moments/the-bottle-incident/).
+While helping [Sal Mazzi](/npcs/bonds/sal-mazzi/) move boxes, [Agent Marlowe](/characters/marlowe/) (real name Miya) was accosted by a large, unidentified [man in an old suit](/npcs/suspects-witnesses/man-in-old-suit/), who screamed at her by name demanding "his bottle." Sal drove him off with an old firearm before anyone was hurt. See: [The Bottle Incident](/moments/operation-alice/the-bottle-incident/).
 
 ## Why It's Flagged
 
@@ -18,7 +18,7 @@ While helping [Sal Mazzi](/npcs/bonds/sal-mazzi/) move boxes, [Agent Marlowe](/c
 
 ## Current Theories
 
-- None yet. Could be personal history unrelated to Operation ALICE, or could tie into the case's occult objects (cf. the "Red Book" from the [Farsi receipt](/evidence/farsi-receipt/) — an item exchange gone wrong is a plausible parallel, though nothing currently links the two directly).
+- None yet. Could be personal history unrelated to Operation ALICE, or could tie into the case's occult objects (cf. the "Red Book" from the [Farsi receipt](/evidence/operation-alice/farsi-receipt/) — an item exchange gone wrong is a plausible parallel, though nothing currently links the two directly).
 
 ## Status
 

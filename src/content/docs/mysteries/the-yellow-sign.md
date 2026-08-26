@@ -10,7 +10,7 @@ sessions: [5, 7, 8, 9]
 
 ## What Happened
 
-Marlowe first found the sign scrawled on a napkin hidden behind a sheet in Wright's apartment (Session 5) — exposing it filled the room with melancholy, anxiety, and paranoia. She and, later, Mortimer and Murphy were badly affected; Mason and Mabel initially were not. A second instance was found on a [1905 newspaper scrap](/evidence/yellow-sign-newspaper/) deep in the Night Floors (Session 7), where showing it around caused every agent present to involuntarily ask "Tell me, have you seen the Yellow Sign?" without realizing they'd spoken.
+Marlowe first found the sign scrawled on a napkin hidden behind a sheet in Wright's apartment (Session 5) — exposing it filled the room with melancholy, anxiety, and paranoia. She and, later, Mortimer and Murphy were badly affected; Mason and Mabel initially were not. A second instance was found on a [1905 newspaper scrap](/evidence/operation-alice/yellow-sign-newspaper/) deep in the Night Floors (Session 7), where showing it around caused every agent present to involuntarily ask "Tell me, have you seen the Yellow Sign?" without realizing they'd spoken.
 
 ## Effects Observed
 

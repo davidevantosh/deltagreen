@@ -12,7 +12,7 @@ deceased: true
 
 ## Role
 
-Architect credited with the 1953 conversion of the [Macallister Building](/locations/macallister-building/) from a private residence into an apartment building.
+Architect credited with the 1953 conversion of the [Macallister Building](/locations/operation-alice/macallister-building/) from a private residence into an apartment building.
 
 ## Known History
 

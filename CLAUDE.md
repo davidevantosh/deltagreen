@@ -37,7 +37,7 @@ Folders:
 
 ```
 src/content/docs/
-  index.md          <- homepage: roster, current case, quick links. Keep in sync.
+  index.md          <- homepage: roster, cases table, quick links. Keep in sync.
   timeline.md        <- chronological case timeline built from evidenceDate fields. Update when new dated evidence appears.
   characters/         <- the 5(ish) PC agents. One file each, filename = agent's short name (e.g. mortimer.md)
   npcs/
@@ -46,11 +46,13 @@ src/content/docs/
     suspects-witnesses/ <- case-related NPCs: tenants, suspects, historical figures, anyone tied to the investigation itself
   cases/              <- one page per case (e.g. operation-alice.md). Has a "Progress Log" section at the BOTTOM of the page - append, don't rewrite. Has a "Status" section near the TOP (Open/In Progress/Closed).
   sessions/           <- one page per session, filename session-NN.md (zero-padded, e.g. session-02.md)
-  evidence/           <- one page per distinct piece of evidence. If the evidence has a specific date attached (a receipt, ticket, letter, permit, etc.), set the `evidenceDate` frontmatter field and add it to timeline.md.
-  locations/          <- one page per key location
-  moments/            <- one page per key moment/interaction, kebab-case title as filename
-  mysteries/          <- unresolved threads. Has a "Status" field (Open / Partially Resolved / Resolved). When something resolves a mystery, update its status and link to the resolving moment/session - don't delete the page.
+  evidence/<case-slug>/    <- one page per distinct piece of evidence, nested under the case it belongs to (e.g. evidence/operation-alice/farsi-receipt.md). If the evidence has a specific date attached, set `evidenceDate` frontmatter and add it to timeline.md.
+  locations/<case-slug>/  <- one page per key location, nested under its case
+  moments/<case-slug>/    <- one page per key moment/interaction, nested under its case, kebab-case filename
+  mysteries/          <- unresolved threads. NOT nested by case (mysteries often span multiple cases/decades). Has a "Status" field (Open / Partially Resolved / Resolved). When something resolves a mystery, update its status and link to the resolving moment/session - don't delete the page.
 ```
+
+**Case slugs currently in use:** `operation-alice`, `the-baughman-sweep`, `operation-convergence`, `operation-india-moon`. When a new case starts, create its subfolder under `evidence/`, `locations/`, and `moments/`, plus a new page in `cases/`, and add matching entries to the `sidebar` groups for Evidence Locker / Locations / Key Moments in `astro.config.mjs` (see Sidebar section below — these three sections do NOT autogenerate case subfolders automatically, they're explicitly listed).
 
 ## Character page template
 
@@ -87,11 +89,17 @@ Character pages (`src/content/docs/characters/*.md`) follow a fixed structure �
 
 ## Sidebar
 
-The sidebar (`astro.config.mjs`) uses `autogenerate` per folder, so new files automatically appear in navigation — you don't need to touch `astro.config.mjs` when adding pages, only if adding a whole new top-level category or NPC subfolder. The right-hand "on this page" table of contents is disabled site-wide (`tableOfContents: false`) — don't re-enable it per-page.
+The sidebar (`astro.config.mjs`) is ordered: Campaign Overview, Main Characters, NPCs, Cases, Timeline, Evidence Locker, Locations, Key Moments, Mysteries & Loose Threads, Sessions. Keep this order when editing.
 
-## Deployment — do not add a `base` path
+Most sections use `autogenerate` per folder, so new files there automatically appear in navigation. The exceptions are **Evidence Locker**, **Locations**, and **Key Moments** — these are explicitly split into one nested group per case (Operation ALICE, The Baughman Sweep, Operation CONVERGENCE, Operation INDIA MOON), so a brand-new case requires manually adding a new nested group to each of those three sidebar sections in `astro.config.mjs`, pointing `autogenerate.directory` at the new `evidence/<case-slug>/`, `locations/<case-slug>/`, `moments/<case-slug>/` folder.
 
-This project is deployed as a GitHub Pages **user site** (`astro.config.mjs` sets `site` only, no `base`) specifically so that every hand-written link and image `src` in this wiki (all root-relative, e.g. `/characters/mortimer/`) resolves correctly. If a `base` path is ever added to `astro.config.mjs`, every one of those hand-written links will silently break, because Astro/Starlight only auto-prefixes its own generated navigation with `base` — not links written directly in markdown content. Don't add `base` unless you also rewrite every internal link and image path in `src/content/docs/**` to account for it.
+The site logo (`src/assets/delta-green-logo.png`) replaces the text title in the top nav bar (`logo.replacesTitle: true` in the Starlight config) and is also used as the homepage hero image (`template: splash` + `hero.image` in `index.md`'s frontmatter) — don't reintroduce a plain text "M-Cell Archive" or similar heading on the homepage; the logo does that job now. The right-hand "on this page" table of contents is disabled site-wide (`tableOfContents: false`) — don't re-enable it per-page.
+
+## Deployment — the base path is handled, don't break the fix
+
+This project deploys to `https://davidevantosh.github.io/deltagreen/` — a GitHub Pages **project site**, which requires the `base: '/deltagreen'` config in `astro.config.mjs`. Astro/Starlight only auto-prefixes its own generated navigation with `base` — not hand-written links or `<img>` tags inside markdown content (a documented upstream limitation). To work around this, `astro.config.mjs` includes a custom rehype plugin (`rehypeBasePrefix`, paired with `rehype-raw` so it can see raw HTML like the character portrait `<img>` tags) that rewrites every root-relative link and image at build time.
+
+This means: **keep writing links and image paths exactly as before** — root-relative, e.g. `/characters/mortimer/` and `/characters/mortimer.png` — the plugin handles the rest automatically. Do not manually prefix new links with `/deltagreen` yourself; that would cause double-prefixing. Do not remove `rehypeRaw`, `rehypeBasePrefix`, or the `base` config without understanding why they're there (see the comment block above them in `astro.config.mjs`).
 
 ## Dev workflow
 

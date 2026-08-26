@@ -9,28 +9,28 @@ inGameDate: "10 – 17 August 1995"
 
 ## Status
 
-**Closed.** The incursion was contained via the deliberate destruction of the [Macallister Building](/locations/macallister-building/) on 17 August 1995 (Session 9). Handler Agent Marcus stood M-Cell down to rest and lie low; per Marcus, several threads remain explicitly open for Delta Green to pick up in the future. Abigail Wright was never located, dead or alive.
+**Closed.** The incursion was contained via the deliberate destruction of the [Macallister Building](/locations/operation-alice/macallister-building/) on 17 August 1995 (Session 9). Handler Agent Marcus stood M-Cell down to rest and lie low; per Marcus, several threads remain explicitly open for Delta Green to pick up in the future. Abigail Wright was never located, dead or alive.
 
 ## Briefing
 
-An FBI missing person case. **[Abigail Wright](/npcs/suspects-witnesses/abigail-wright/)**, an artist, vanished from the [Macallister Building](/locations/macallister-building/). M-Cell was given FBI cover identities to justify entering her building and investigating her disappearance.
+An FBI missing person case. **[Abigail Wright](/npcs/suspects-witnesses/abigail-wright/)**, an artist, vanished from the [Macallister Building](/locations/operation-alice/macallister-building/). M-Cell was given FBI cover identities to justify entering her building and investigating her disappearance.
 
 ## Objectives
 
 1. Catalog the items in Wright's apartment. ✅ Completed, Session 5.
 2. Search for one or more occult symbol(s). ✅ The Yellow Sign, found Session 5.
-3. Determine whether an unnatural influence is behind her disappearance. ✅ Confirmed — the [Night Floors](/locations/the-night-floors/), a pocket dimension accessible via the building's roof door.
+3. Determine whether an unnatural influence is behind her disappearance. ✅ Confirmed — the [Night Floors](/locations/operation-alice/the-night-floors/), a pocket dimension accessible via the building's roof door.
 4. If an unnatural influence is confirmed, stop or destroy it per standard operational parameters. ✅ The Macallister Building was destroyed, Session 9.
 
 ## Key Locations
 
-- [The Macallister Building](/locations/macallister-building/) — Wright's residence; destroyed.
-- [The Night Floors](/locations/the-night-floors/) — the pocket dimension behind the building's roof door.
-- [The Bookshop](/locations/the-bookshop/) — where Wright purchased *Le Roi en Jaune*.
+- [The Macallister Building](/locations/operation-alice/macallister-building/) — Wright's residence; destroyed.
+- [The Night Floors](/locations/operation-alice/the-night-floors/) — the pocket dimension behind the building's roof door.
+- [The Bookshop](/locations/operation-alice/the-bookshop/) — where Wright purchased *Le Roi en Jaune*.
 
 ## Evidence
 
-See the [Evidence Locker](/evidence/the-crown/) and the [Case Timeline](/timeline/).
+See the [Evidence Locker](/evidence/operation-alice/the-crown/) and the [Case Timeline](/timeline/).
 
 ## Open Threads
 

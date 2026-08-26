@@ -18,7 +18,7 @@ Nothing about this fits the timeline or the people involved as anyone understand
 
 ## Current Theories
 
-- The Night Floors may be capable of generating targeted, personal material about the agents to destabilize them individually — the wall of "bottled" photographs bearing Marlowe's real name (see [The Night Floors](/locations/the-night-floors/)) suggests the location has detailed, unsettling knowledge of the team specific to each member.
+- The Night Floors may be capable of generating targeted, personal material about the agents to destabilize them individually — the wall of "bottled" photographs bearing Marlowe's real name (see [The Night Floors](/locations/operation-alice/the-night-floors/)) suggests the location has detailed, unsettling knowledge of the team specific to each member.
 
 ## Status
 

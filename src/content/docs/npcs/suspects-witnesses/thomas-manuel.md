@@ -18,4 +18,4 @@ sessions: [2, 3]
 
 ## Open Threads
 
-- Manuel's ultimate fate was never confirmed. The audio trail strongly suggests he ascended into the [Night Floors](/locations/the-night-floors/) that same night, but he was never encountered there directly, and no further contact was made with him before the Macallister Building was destroyed.
+- Manuel's ultimate fate was never confirmed. The audio trail strongly suggests he ascended into the [Night Floors](/locations/operation-alice/the-night-floors/) that same night, but he was never encountered there directly, and no further contact was made with him before the Macallister Building was destroyed.

@@ -23,7 +23,7 @@ This figure appears consistently associated with masks, formal or archaic dress,
 
 ## Current Theories
 
-- May be the same entity referenced as "the new king" in the [masquerade invitation](/evidence/the-invitation/) found in the Night Floors.
+- May be the same entity referenced as "the new king" in the [masquerade invitation](/evidence/operation-alice/the-invitation/) found in the Night Floors.
 - Possibly connected to the original [busking clown](/mysteries/the-clown/) from Session 1 — both involve masks and precise, deliberate movement — though nothing directly confirms the link.
 
 ## Status

@@ -39,38 +39,32 @@ After each session, hand the new summary to Claude (or Claude Code) and it will 
 
 ## Going live on GitHub Pages
 
-This project is pre-configured to deploy automatically via GitHub Actions on every push to `main`.
+This project is pre-configured to deploy automatically via GitHub Actions on every push to `main`, to **[davidevantosh/deltagreen](https://github.com/davidevantosh/deltagreen)**.
 
-**Important: use a "user site," not a "project site."** GitHub Pages project sites (repo name ≠ `username.github.io`) serve from a subpath like `/delta-green-wiki/`, which requires every internal link and image in this project to be prefixed to match. Astro/Starlight only does this automatically for its own auto-generated navigation — not for the hand-written cross-links throughout this wiki's content — so a project site would silently 404 on nearly every link and portrait image. A **user site** avoids this entirely by serving at the domain root, with zero link changes needed. That's what this project is set up for.
+Since `deltagreen` isn't a GitHub "user site" repo name, this deploys as a project site at `https://davidevantosh.github.io/deltagreen/` — a subpath. Astro/Starlight only auto-prefixes its *own* generated navigation with a `base` path, not the hand-written links and character portrait images throughout this wiki's markdown content (a documented upstream limitation). `astro.config.mjs` includes a small custom rehype plugin (`rehypeBasePrefix`, using `rehype-raw` + `unist-util-visit`) that fixes this at build time — every internal link and image has been verified to resolve correctly under `/deltagreen/`. You shouldn't need to touch this unless the repo is ever renamed (see below).
 
 One-time setup:
 
-1. **Update the site URL.** In `astro.config.mjs`, replace `YOUR-USERNAME` with your actual GitHub username:
-   ```js
-   site: 'https://YOUR-USERNAME.github.io',
-   ```
-
-2. **Create a GitHub repo named exactly `YOUR-USERNAME.github.io`** (this exact name is required for a user site — see [github.com/new](https://github.com/new)). Note: GitHub allows only **one** user site per account — if you already use `username.github.io` for something else, see the alternative below instead.
+1. **Push this project to the repo:**
    ```bash
    git init
    git add .
    git commit -m "Initial commit"
    git branch -M main
-   git remote add origin https://github.com/YOUR-USERNAME/YOUR-USERNAME.github.io.git
+   git remote add origin https://github.com/davidevantosh/deltagreen.git
    git push -u origin main
    ```
 
-3. **Enable Pages.** In the repo on GitHub: **Settings → Pages → Build and deployment → Source**, select **GitHub Actions**.
+2. **Enable Pages.** In the repo on GitHub: **Settings → Pages → Build and deployment → Source**, select **GitHub Actions**.
 
-4. **Push.** The workflow in `.github/workflows/deploy.yml` builds and deploys automatically. Check the **Actions** tab for progress — the first run takes a couple of minutes. Once it's green, your site is live at `https://YOUR-USERNAME.github.io/`.
+3. **Push.** The workflow in `.github/workflows/deploy.yml` builds and deploys automatically. Check the **Actions** tab for progress — the first run takes a couple of minutes. Once it's green, your site is live at `https://davidevantosh.github.io/deltagreen/`.
 
 From then on, every `git push` to `main` (including commits made by Claude Code) redeploys the live site automatically — no manual build step needed.
 
-### Alternative: if you need a differently-named repo
+### If you ever rename the repo or add a custom domain
 
-If `username.github.io` is already taken by another project, two options avoid the same subpath problem:
-- **Get a custom domain** (a few dollars/year) and point it at a project site — custom domains also serve from the root, so no link changes are needed either.
-- **Fix every internal link to work under a subpath** — possible, but means going through and prefixing several hundred hand-written links and image tags throughout `src/content/docs/`. Not recommended unless you have a specific reason to avoid a user site or custom domain.
+- **Renaming the repo:** update the `BASE` constant near the top of `astro.config.mjs` to match the new name exactly (e.g. `/new-repo-name`).
+- **Custom domain:** update `site` in `astro.config.mjs` to your domain, and since custom domains serve from the root (no subpath), you can also delete the `base` config and the `rehypeBasePrefix` plugin entirely at that point — they'd no longer be needed.
 
 ## Build for local testing (optional)
 

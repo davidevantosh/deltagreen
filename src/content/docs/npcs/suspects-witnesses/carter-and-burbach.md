@@ -12,7 +12,7 @@ deceased: true
 
 ## Role
 
-Two "dead" marionettes found by the team deep in the [Night Floors](/locations/the-night-floors/), torn open by buckshot with red tissue paper standing in for blood — carrying wallets with genuine, brand-new-looking 1950s New York identity cards for **Eric K. Carter** (1953 card) and **Ronald Burbach** (1955 card).
+Two "dead" marionettes found by the team deep in the [Night Floors](/locations/operation-alice/the-night-floors/), torn open by buckshot with red tissue paper standing in for blood — carrying wallets with genuine, brand-new-looking 1950s New York identity cards for **Eric K. Carter** (1953 card) and **Ronald Burbach** (1955 card).
 
 ## Records Found
 

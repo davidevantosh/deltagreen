@@ -14,7 +14,7 @@ In [Thomas Manuel's](/npcs/suspects-witnesses/thomas-manuel/) basement studio, a
 
 1. A haunting image of a white-faced specter standing on a rug at the top of a staircase, in the midst of a conflagration (fire). The rug is a strange, aquamarine color.
 2. A young man with blond hair, wearing a hospital gown, duplicated in a mirror — his mirror-twin deformed and muscular, with a misshapen head.
-3. [Washington Square Park](/locations/washington-square-park/): a child-sized clown in yellow and blue cavorts, trailing a white paper dragon — matching [The Clown](/mysteries/the-clown/) from Session 1.
+3. [Washington Square Park](/locations/operation-alice/washington-square-park/): a child-sized clown in yellow and blue cavorts, trailing a white paper dragon — matching [The Clown](/mysteries/the-clown/) from Session 1.
 
 ## Why It's Flagged
 

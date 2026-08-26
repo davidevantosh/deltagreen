@@ -12,7 +12,7 @@ deceased: true
 
 ## Role
 
-Comic book illustrator, tenant of Apartment 4A in the [Macallister Building](/locations/macallister-building/).
+Comic book illustrator, tenant of Apartment 4A in the [Macallister Building](/locations/operation-alice/macallister-building/).
 
 ## Session Notes
 

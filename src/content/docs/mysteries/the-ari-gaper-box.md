@@ -19,6 +19,7 @@ While closing a joint bank account with his ex-wife Jennifer, Murphy was told he
 ## Current Theories
 
 - Ari Gaper is likely a direct relative of Murphy's (father or grandfather, given the 1951 date), suggesting Murphy's family has a hidden, direct connection to whatever succession or hierarchy is unfolding around the Macallister Building and the Night Floors.
+- **2015 update:** The number 616 resurfaced twenty years later — a copper key to "room 616" was found on Elias Barbas's body during Operation INDIA MOON, and the Boxer Hotel's room 616 was independently listed as a shared address for three unknown Delta Green agents. See [The Cheat Sheets & Agents L–V](/mysteries/the-cheat-sheets-and-agents-lv/). The repetition strongly suggests 616 is a deliberate marker rather than coincidence.
 
 ## Status
 

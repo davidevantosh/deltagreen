@@ -12,7 +12,7 @@ deceased: true
 
 ## Role
 
-Feminist author, tenant of Apartment 6B in the [Macallister Building](/locations/macallister-building/).
+Feminist author, tenant of Apartment 6B in the [Macallister Building](/locations/operation-alice/macallister-building/).
 
 ## Session Notes
 

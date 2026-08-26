@@ -1,0 +1,14 @@
+---
+// Overrides Starlight's default ThemeProvider.
+// This site is dark-mode only — no theme detection, no localStorage read,
+// no flash-of-light-theme on load. Just hard-set dark before paint.
+---
+
+<script is:inline>
+	document.documentElement.dataset.theme = 'dark';
+</script>
+<style is:global>
+	:root {
+		color-scheme: dark;
+	}
+</style>

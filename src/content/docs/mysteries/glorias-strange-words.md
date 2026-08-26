@@ -9,7 +9,7 @@ sessions: [2]
 
 ## What Happened
 
-Over dinner at [Silvia's Soul Food Restaurant](/locations/silvias-soul-food/), [Mason's](/characters/mason/) partner Gloria said something strange and a little unsettling to him. He kept the conversation light regardless — but afterward isn't certain he actually heard her say it. See: [Dinner with Gloria](/moments/dinner-with-gloria/).
+Over dinner at [Silvia's Soul Food Restaurant](/locations/operation-alice/silvias-soul-food/), [Mason's](/characters/mason/) partner Gloria said something strange and a little unsettling to him. He kept the conversation light regardless — but afterward isn't certain he actually heard her say it. See: [Dinner with Gloria](/moments/operation-alice/dinner-with-gloria/).
 
 ## Why It's Flagged
 

@@ -4,7 +4,7 @@ description: A man claiming to have written Le Roi en Jaune.
 entryType: npc
 status: Unknown
 case: Operation ALICE
-sessions: [7, 9]
+sessions: [7, 9, 16]
 ---
 
 ## Role
@@ -14,7 +14,9 @@ A squat, sweaty, balding man in his forties, in a double-breasted wool jacket, p
 ## Session Notes
 
 - **Session 9:** Introduced himself and claimed to be the author of *Le Roi en Jaune*. Spoke about "good paths and bad paths," and warned that the Macallister Building is a bad path. Said he'd been "working too hard" and was going on vacation "to the continent."
+- **Session 16 (2015):** Named twenty years later on [an old, undelivered postcard](/evidence/operation-india-moon/the-cryptic-postcard/) found on Elias Barbas's porch, alongside a mention of "Abigail."
 
 ## Open Threads
 
 - A wall of photographs found deep in the Night Floors in Session 7 included one captioned **"E. MOSEBY"** among a group of blank-faced people in 1930s clothing, each holding an odd bottle — strongly suggesting this Moseby has existed, unaged, since at least the 1930s.
+- His connection to Elias Barbas, twenty years and 300 miles removed from the Macallister Building, is unexplained.
